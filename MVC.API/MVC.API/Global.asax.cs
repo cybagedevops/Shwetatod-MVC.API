@@ -13,6 +13,7 @@ namespace MVC.API
     {
         protected void Application_Start()
         {
+            //test
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
